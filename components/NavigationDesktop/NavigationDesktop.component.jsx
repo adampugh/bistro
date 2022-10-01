@@ -1,7 +1,3 @@
-import { useEffect, useState } from 'react';
-import { Fade, Slide } from 'react-reveal';
-import { BiMenu } from 'react-icons/bi';
-import { ImCross } from 'react-icons/im';
 import styles from './NavigationDesktop.module.scss';
 
 const NavigationDesktop = () => (
