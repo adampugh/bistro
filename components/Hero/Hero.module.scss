@@ -2,6 +2,10 @@
   position: relative;
   isolation: isolate;
   min-height: 850px;
+
+  @media (min-width: 1176px) {
+    height: 100vh;
+  }
 }
 
 .heroImage {
@@ -33,6 +37,10 @@
   height: 100%;
   width: 100%;
   padding-top: 300px;
+
+  @media (min-width: 1176px) {
+    padding-top: 400px;
+  }
 }
 
 .heroTitle {
@@ -45,6 +53,13 @@
   line-height: 1.2;
   font-size: 36px;
   padding: 0 15px;
+
+  @media (min-width: 1176px) {
+    font-size: 48px;
+    line-height: 52px;
+    width: 50%;
+    margin: 0 auto 67px;
+  }
 }
 
 .socialIcons {
