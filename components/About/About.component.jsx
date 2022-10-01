@@ -19,7 +19,7 @@ const About = () => (
             <Image src='/images/steak.jpg' alt='steak' layout='fill' />
           </div>
           <div className={styles.aboutImage}>
-            <Image src='/images/steak.jpg' alt='steak' layout='fill' />
+            <Image src='/images/steak2.jpg' alt='steak' layout='fill' />
           </div>
         </div>
       </div>

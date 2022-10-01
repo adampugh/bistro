@@ -22,7 +22,9 @@ const NavigationDesktop = () => (
           <a href="#contact">Contact</a>
         </div>
         <div>
-          <button className='button'>Book now</button>
+          <a href="#contact">
+            <button className='button'>Book now</button>
+          </a>
         </div>
       </div>
     </div>

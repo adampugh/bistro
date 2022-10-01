@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navigation from '../components/Navigation/Navigation.component';
-import NavigationDesktop from '../components/NavigationDesktop/NavigationDesktop.component';
 import Hero from '../components/Hero/Hero.component';
 import About from '../components/About/About.component';
 import Menu from '../components/Menu/Menu.component';
@@ -20,15 +19,13 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
         <link href="https://fonts.googleapis.com/css2?family=Inter&family=Jomolhari&display=swap" rel="stylesheet"></link>
       </Head>
-
       <main>
-        <NavigationDesktop />
+        <Navigation />
         <Hero />
         <About />
         <Menu />
         <Contact />
       </main>
-
       <Footer />
     </div>
   )

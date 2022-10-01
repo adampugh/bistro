@@ -1,11 +1,16 @@
 .navigation {
-  background: transparent;
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  margin: 0 auto;
-  padding-top: 30px;
+  display: none;
+
+  @media (min-width: 1176px) {
+    display: block;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
 }
 
 .logo {
@@ -32,6 +37,11 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
+
+  button {
+    width: 100%;
+    padding: 16px 0;
+  }
 }
 
 .navigationLink {
