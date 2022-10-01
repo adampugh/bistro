@@ -1,0 +1,48 @@
+.contact {
+  padding: 80px 0 180px;
+  background: var(--green-mid);
+}
+
+.contactSection {
+  margin: 60px 0;
+}
+
+.contactSectionTitle {
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.contactSectionRow {
+  display: flex;
+  justify-content: space-between;
+  
+  p {
+    font-size: 16px;
+  }
+}
+
+.contactLocation {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1176px) {
+  .contact {
+    h2 {
+      text-align: center;
+    }
+  }
+
+  .contactSections {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 117px;
+  }
+
+  .contactSection {
+    width: 50%;
+  }
+}
