@@ -1,6 +1,7 @@
 .about {
   padding: 61px 0 111px;
   background: linear-gradient(148.19deg, #1B281C 19.14%, #101c10 92.93%);
+  margin-top: -1px;
 
   h2, p {
     margin: 60px 0;
@@ -84,16 +85,3 @@
     }
   }
 }
-
-// .aboutFlex {
-//   @media (min-width: 1176px) {
-//     display: grid;
-//     grid-template-columns: 1fr 1fr;
-//   }
-// }
-
-// .aboutImages {
-//   order: -1;
-//   display: flex;
-
-// }

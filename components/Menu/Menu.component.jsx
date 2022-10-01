@@ -1,3 +1,4 @@
+import { Fade } from 'react-reveal';
 import styles from './Menu.module.scss';
 
 const menuItems = [
@@ -35,21 +36,23 @@ const menuItems = [
 ];
 
 const Menu = () => (
-  <section className={styles.menu}>
+  <section id='menu' className={styles.menu}>
     <div className="container">
-      <div className={styles.menuWrapper}>
-        <h2 className="title">Menu</h2>
-        <div className={styles.menuGrid}>
-          {menuItems.map((item) => (
-            <div key={item.title} className={styles.menuSection}>
-              <h3>{item.title}</h3>
-              {item.items.map((item) => (
-                <p key={item}>{item}</p>
-              ))}
-            </div>
-          ))}
+      <Fade bottom>
+        <div className={styles.menuWrapper}>
+          <h2 className="title">Menu</h2>
+          <div className={styles.menuGrid}>
+            {menuItems.map((item) => (
+              <div key={item.title} className={styles.menuSection}>
+                <h3>{item.title}</h3>
+                {item.items.map((item) => (
+                  <p key={item}>{item}</p>
+                  ))}
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      </Fade>
     </div>
   </section>
 );

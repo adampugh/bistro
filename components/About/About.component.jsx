@@ -1,9 +1,11 @@
 import Image from 'next/image';
+import { Fade } from 'react-reveal';
 import styles from './About.module.scss';
 
 const About = () => (
-  <section className={styles.about}>
+  <section id='about' className={styles.about}>
     <div className="container">
+    <Fade bottom>
       <div className={styles.aboutFlex}>
         <div className={styles.aboutContent}>
           <h2 className='title'>About</h2>
@@ -19,6 +21,7 @@ const About = () => (
           </div>
         </div>
       </div>
+    </Fade>
     </div>
   </section>
 );
