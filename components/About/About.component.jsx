@@ -10,7 +10,9 @@ const About = () => (
         <div className={styles.aboutContent}>
           <h2 className='title'>About</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit esse quos dolorem aspernatur suscipit, quis mollitia a, repellendus vitae quisquam sed sit? Tempore placeat voluptatibus voluptatum excepturi temporibus facere corporis, culpa accusantium sequi debitis animi aliquam harum doloremque quas ut blanditiis, iure maxime dolor hic nulla? Veniam perspiciatis vero maiores, voluptatibus corporis possimus quo, quae aperiam corrupti, non ab illo.</p>
-          <button className="button">Book now</button>
+          <a href="#contact">
+            <button className="button">Book now</button>
+          </a>
         </div>
         <div className={styles.aboutImages}>
           <div className={styles.aboutImage}>

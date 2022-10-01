@@ -12,7 +12,9 @@ const Hero = () => (
       <div className={styles.heroContent}>
         <div className='container'>
           <h1 className={styles.heroTitle}>Chef&apos;s specials every Sunday at Cagzy&apos;s</h1>
-          <button className='button'>Book Now</button>
+          <a href="#contact">
+            <button className='button'>Book Now</button>
+          </a>
           <div className={styles.socialIcons}>
             {/* can add link via facebook.com/cool-link */}
             <SocialIcon url="https://facebook.com/" bgColor='#fff' />

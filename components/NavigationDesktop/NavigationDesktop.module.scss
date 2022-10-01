@@ -1,0 +1,54 @@
+.navigation {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  z-index: 100;
+  position: relative;
+
+  h3 {
+    font-family: var(--body-font);
+    letter-spacing: 0.55em;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    color: var(--gold);
+    font-family: var(--heading-font);
+    line-height: 1;
+  }
+}
+
+.navigationWrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+}
+
+.navigationLink {
+  text-align: center;
+  text-transform: uppercase;
+
+  a {
+    transition: all .3s ease-in-out;
+    padding-bottom: 6px;
+    border-bottom: transparent;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    a {
+      border-bottom: 1px solid var(--gold);
+    }
+  }
+}

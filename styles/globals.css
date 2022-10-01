@@ -20,6 +20,7 @@ body {
   font-family: var(--body-font);
   color: var(--white);
   font-weight: 400;
+  background-color: var(--black);
 }
 
 a {
@@ -67,6 +68,13 @@ h1, h2, h3, h4, h5 {
   font-size: 16px;
   line-height: 19px;
   font-weight: 400;
+  transition: .3s all ease-in-out;
+}
+
+@media (min-width: 600px) {
+  .button:hover {
+    background-color: var(--black);
+  }
 }
 
 .button::before {
